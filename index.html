@@ -3,39 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Landing Page</title>
-
     <link rel="stylesheet" href="./assets/css/landing.css" />
   </head>
   <body>
     <div class="container">
-      <div class="header_container">
-        <div class="header">
-          <div class="header_logo">
-            <img src="./assets/img/logo.png" alt="Logo" />
-          </div>
-          <nav class="header_nav">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
+      <header class="header">
+        <div class="header_logo">
+          <img src="./assets/img/logo.png" alt="Company Logo" />
         </div>
-        <div class="header_content">
-          <div class="header_sub">
-            <h1>Welcome to Our Landing Page</h1>
-            <p>This is a sample landing page for your business.</p>
+        <nav class="header_nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
 
-            <button>Sign up</button>
-          </div>
-          <div class="header_img">
-            <img src="./assets/img/logo1.png" alt="cont_img" />
-          </div>
+      <section class="hero" role="banner">
+        <div class="hero_text">
+          <h1>Welcome to Our Landing Page</h1>
+          <p>Discover premium services tailored just for you.</p>
+          <button type="button">Get Started</button>
+        </div>
+        <div class="hero_img">
+          <img src="./assets/img/1.png" alt="Main Image" />
+        </div>
+      </section>
+    </div>
+
+    <section class="categories">
+      <h2>Categories</h2>
+      <div class="category_grid">
+        <div class="category_item">
+          <img src="./assets/img/pic2.jpg" alt="pic2" />
+          <h4>Business Solutions</h4>
+        </div>
+        <div class="category_item">
+          <img src="./assets/img/pic3.png" alt="pic3" />
+          <h4>Technology</h4>
+        </div>
+        <div class="category_item">
+          <img src="./assets/img/pic4.jpg" alt="pic4" />
+          <h4>Creative Design</h4>
+        </div>
+        <div class="category_item">
+          <img src="./assets/img/pic5.jpg" alt="pic5" />
+          <h4>Marketing</h4>
         </div>
       </div>
-    </div>
+    </section>
+
+    <section class="quote">
+      <div class="quote_text">
+        <p>
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+          eius ducimus. Possimus labore eos minus quibusdam enim, suscipit
+          impedit autem placeat neque illo corporis aliquid, officiis
+          necessitatibus maxime tenetur itaque?, quos."
+        </p>
+        <h3>- John Doe</h3>
+      </div>
+    </section>
+
+    <section class="signup">
+      <div class="signup_text">
+        <div class="text_">
+          <h2>Sign up for our newsletter</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            eius ducimus. Possimus labore eos minus quibusdam enim, suscipit
+          </p>
+        </div>
+        <button>Sign Up</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer_text">
+        <p>&copy; 2025 George's Landing Page. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
