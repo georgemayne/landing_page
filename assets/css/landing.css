@@ -230,3 +230,97 @@ button:hover {
   color: #bfa181;
   margin-bottom: 1rem;
 }
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .hero_img img {
+    width: 350px;
+    height: 350px;
+    margin-top: 2rem;
+  }
+
+  .signup_text {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .text_ {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .header_nav ul {
+    margin-top: 20px;
+    gap: 1rem;
+  }
+
+  .hero_text h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero_text p {
+    font-size: 1.2rem;
+  }
+
+  .category_grid {
+    gap: 20px;
+  }
+
+  .category_item {
+    width: 160px;
+  }
+
+  .category_item img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .quote {
+    padding: 4rem 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header_nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .hero_img img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .hero_text h1 {
+    font-size: 1.8rem;
+  }
+
+  .categories h2 {
+    font-size: 1.8rem;
+  }
+
+  .quote_text {
+    font-size: 1.2rem;
+  }
+
+  .signup_text h2 {
+    font-size: 1.6rem;
+  }
+}
